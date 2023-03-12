@@ -1,0 +1,62 @@
+.client_section {
+    padding-bottom: 125px;
+  }
+  
+  .client_box {
+    position: relative;
+    margin-top: 150px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .c-b-1 {
+    background-image: url(../../../../assets/images/client1-bg.png);
+  }
+  
+  .c-b-2 {
+    background-image: url(../../../../assets/images/client2-bg.png);
+  }
+  
+  .client_detail {
+    padding: 20px 30px;
+    padding-left: 50px;
+  }
+  
+  .client_detail h5 {
+    padding-left: 20%;
+    color: #78cffd;
+  }
+  
+  .client_detail p {
+    padding-top: 20px;
+    color: #fff;
+  }
+  
+  .client_box .client_img {
+    position: absolute;
+    top: -40%;
+  }
+  
+  .client_section .carousel-indicators {
+    position: absolute;
+    top: 115%;
+    left: 33%;
+    bottom: auto;
+    right: auto;
+  }
+  
+  .client_section .carousel-indicators li {
+    width: 21px;
+    height: 10px;
+    background-color: #0a0057;
+    background-clip: padding-box;
+    margin: 0;
+    border: none;
+    opacity: 1;
+    transition: background-color 0.6s;
+  }
+  
+  .client_section .carousel-indicators .active {
+    background-color: #78cffd;
+  }
+  

@@ -1,0 +1,246 @@
+
+.hero_area {
+  position: relative;
+}
+
+.hero_area.custom_page-height {
+  height: 86px;
+}
+
+.hero_area.custom_page-height::after {
+  display: none;
+}
+
+.hero_area::after {
+  position: absolute;
+  content: "";
+  background-image: url(../../assets/images/blue-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 42%;
+  height: 70px;
+  top: 98.5%;
+  right: -5%;
+  z-index: -1;
+}
+
+
+.logo-box {
+    padding-top: 5px;
+  }
+  
+  .logo-box span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0a0057;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .header_section .header_container {
+    display: flex;
+    justify-content: space-between;
+  }
+  header {
+    background-image: url(../../assets/images/heder-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+  }
+  .header_top {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 7px;
+  }
+  
+  .header_top img {
+    margin-right: 5px;
+  }
+  
+  .header_top-social {
+    display: flex;
+  }
+  
+  .header_top-contact {
+    display: flex;
+    margin-right: 20%;
+  }
+  
+  .header_top-contact a,
+  .header_top-contact a:hover {
+    display: flex;
+    color: #c3c3c5;
+  }
+  
+  .header_section .nav_container {
+    margin: 0 auto;
+  }
+  
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 30px;
+    color: #0a0057;
+    text-align: center;
+  }
+  
+  a,
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:focus {
+    color: initial;
+  }
+  
+  .btn,
+  .btn:focus {
+    outline: none !important;
+    box-shadow: none;
+  }
+  
+  .heading_style {
+    border-left: 12px solid #78cffd;
+    font-size: 40px;
+    padding-left: 3px;
+    font-weight: lighter;
+    color: #0a0057;
+  }
+
+  
+  .navbar-brand,
+  .navbar-brand:hover {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fafcfd;
+  }
+  
+  .custom_nav-container .nav_search-btn {
+    background-image: url(../../assets/images/search-icon.png);
+  
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border: none;
+  }
+  
+  .custom_nav-container .navbar-toggler {
+    outline: none;
+  }
+  
+  .custom_nav-container .navbar-toggler .navbar-toggler-icon {
+    background-image: url(../../assets/images/menu.png);
+    background-size: 48px;
+  }
+  
+  /*end header section*/
+  
+  /* slider section */
+  .slider_section {
+    position: relative;
+    background-image: url(../../assets/images/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .slider_form-box form {
+    display: flex;
+  }
+  
+  .slider_form-box form .search_input {
+    position: relative;
+  }
+  
+  .slider_form-box form .search_input input {
+    width: 250px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: #f7f6fd;
+    padding-left: 10%;
+  }
+  
+  .slider_form-box form .search_input img {
+    position: absolute;
+    width: 15px;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+  }
+  
+  .slider_form-box form button {
+    border: none;
+    background-color: #78cffd;
+    color: #fff;
+    padding: 10px 25px;
+  }
+  
+  .slider_section .slider_item-container {
+    margin-top: 10%;
+  }
+  
+  .slider_section .slider_item-container.col-md-6 {
+    padding: 0;
+  }
+  
+  .slider_item-detail h1 {
+    font-weight: bold;
+    margin: 35px 0;
+    color: #000002;
+  }
+  
+  .read-btn,
+  .quote-btn,
+  .read-btn:hover,
+  .quote-btn:hover {
+    padding: 15px 20px;
+  
+    color: #fff;
+  }
+  
+  .read-btn {
+    background-color: #78cffd;
+  }
+  
+  .quote-btn {
+    background-color: #0a0057;
+  }
+  
+  .read-btn img,
+  .quote-btn img {
+    margin-left: 5px;
+    width: 20px;
+  }
+  
+  .slider_section .carousel-indicators {
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    bottom: auto;
+    right: auto;
+    flex-direction: column;
+    transform: translateY(-50%);
+  }
+  
+  .slider_section .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    background-color: #78cffd;
+    background-clip: padding-box;
+    margin: 3px;
+    border: none;
+    opacity: 1;
+    border-radius: 100%;
+    transition: background-color 0.6s;
+  }
+  
+  .slider_section .carousel-indicators .active {
+    background-color: #0a0057;
+  }
+  
+  

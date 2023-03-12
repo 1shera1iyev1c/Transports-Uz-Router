@@ -1,0 +1,41 @@
+.service_img-box {
+    position: relative;
+  }
+  
+  .service_img-box h3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: lighter;
+    padding: 10px 15px;
+    padding-right: 35px;
+    margin: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .s-b-1 h3 {
+    background-image: url(../../assets/images/hbg.png);
+  }
+  
+  .s-b-2 h3 {
+    background-image: url(../../assets/images/hbg-2.png);
+  }
+  
+  .s-b-3 h3 {
+    background-image: url(../../assets/images/hbg-3.png);
+  }
+  
+  .service_img-box img {
+    width: 100%;
+  }
+  
+  .service-btn,
+  .service-btn:hover {
+    padding: 7px 12px;
+    background-color: #0a0057;
+    color: #fff;
+  }
+  

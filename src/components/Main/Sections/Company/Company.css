@@ -1,0 +1,13 @@
+.company_section {
+    background-color: #78cffd;
+  }
+  
+  .company-detail h3 {
+    color: #060000;
+    font-weight: bold;
+  }
+  
+  .company-detail p {
+    color: #fff;
+    width: 85%;
+  }

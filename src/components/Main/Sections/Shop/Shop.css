@@ -1,0 +1,25 @@
+.shop_section .row {
+    margin-top: 100px;
+    background-color: #0a0057;
+  }
+  
+  .shop-detail {
+    padding: 50px;
+  }
+  
+  .shop-detail h5 {
+    color: #78cffd;
+    font-size: 22px;
+  }
+  
+  .shop-detail p {
+    color: #fff;
+  }
+  
+  .shop_img-box {
+    position: relative;
+    margin-top: -50px;
+    margin-left: -50px;
+    margin-bottom: 50px;
+  }
+  
